@@ -50,12 +50,15 @@ body {
 .main {
     z-index: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .business {
     margin: 20px;
     padding: 20px 30px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: white;
 }
@@ -76,14 +79,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 }
-.text > dl {
+.business-bottom {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.text > dl > dt {
-    width: 50%;
-}
-.text > dl > dd {
-    width: 50%;
+    justify-content: space-evenly;
 }
